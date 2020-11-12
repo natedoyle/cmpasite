@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title>Product App</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="nav-bar"></div>
+        <div id="app">
+            <div class="cart">
+                <p>Cart({{ cart }})</p>
+            </div>
+            <div><product instock=true></product></div>
+            <div>
+                <product-details details="Moo Is Silly"></product-details>
+                <product-details details="Elliott Is Silly"></product-details>
+                <product-details details="Daddy Is Silly"></product-details>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
