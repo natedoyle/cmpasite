@@ -1,0 +1,16 @@
+{
+    "vetur.validation.template": false,
+    "eslint.validate": [
+        "vue",
+        "html",
+        "javascript"
+    ],
+    "vetur.completion.useScaffoldSnippets": "false",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "prettier.jsxSingleQuote": true,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.useTabs": true
+}
